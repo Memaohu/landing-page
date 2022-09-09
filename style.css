@@ -5,14 +5,14 @@
 
 header,
 footer {
-    background-color: #1F2937;
+    background-color: #b5838d;
     color: #E5E7EB;
     margin: 0 auto;
     font-size: 18px;
 }
 
 footer { 
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -23,11 +23,12 @@ footer {
 }
 
 .top-header {
-    border: solid red;
     display: flex;
     justify-content: space-around;
     align-self: flex-start;
     flex: 1;
+    margin-bottom: 5px;
+    padding-top: 8px;
 }
 
 .logo {
@@ -35,17 +36,19 @@ footer {
 }
 
 .media-header {
-    border: solid red;
     display: flex;
     justify-content: space-around;
     padding-bottom: 50px;
 }
 
 .content-header {
-    border: solid red;
     flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
     width: 700px;
+    height: 400px;
     margin: 0;
+    padding: 50px;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: extra-bold;
@@ -58,7 +61,8 @@ footer {
 
 .headerimg {
     width: 500;
-    height: 250px;
+    height: 300px;
+    padding: 50px;
 }
 
 .title {
@@ -69,18 +73,24 @@ footer {
   color: #1F2937;
 }
 
+.info {
+    max-width: 100px;
+}
+
 .container {
-    border: solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    gap: 24px;
+    gap: 125px;
 
 }
 
-.info {
-    max-width: 100px;
+.thumbnail {
+    border-radius: 15px 0px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
 }
 
 ul {
@@ -89,13 +99,14 @@ ul {
     justify-content: space-between;
     gap: 10px;
     list-style: none;
+    font-size: 14px;
 }
 
 .quote-container {
     display: flex;
     flex: 1;
     justify-content: center;   
-    background-color: rgb(170, 172, 173); 
+    background-color: #ffcdb2; 
     padding: 50px;
 }
 
@@ -114,18 +125,12 @@ ul {
     padding: 8px;
 }
 
-.thumbnail {
-
-    width: 100px;
-    height: 100px;
-}
-
 .calltoaction {
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(87, 172, 230);
+    background-color: #ec9e8b;
     padding: 50px 10px 50px 10px;
     margin: 50px 200px 100px 200px;
 }
