@@ -74,7 +74,12 @@ footer {
 }
 
 .info {
-    max-width: 100px;
+    max-width: 200px;
+}
+
+.text {
+    text-align: center;
+    padding: 5px;
 }
 
 .container {
@@ -137,4 +142,23 @@ ul {
 
 .info-action {
     max-width: 600px;
+}
+
+.signup {
+    border-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+button {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    background-color: #ec9e8b;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    padding: 5px 25px;
 }
