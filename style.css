@@ -70,7 +70,7 @@ footer {
   font-weight: extra-bold;
   margin-top: 20px;
   text-align: center;
-  color: #1F2937;
+  color: #332335;
 }
 
 .info {
@@ -80,6 +80,7 @@ footer {
 .text {
     text-align: center;
     padding: 5px;
+    color: #332335;
 }
 
 .container {
@@ -91,7 +92,7 @@ footer {
 
 }
 
-.thumbnail {
+.info-img {
     border-radius: 15px 0px;
     width: 200px;
     height: 300px;
@@ -119,7 +120,7 @@ ul {
     max-width: 600px;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #F9FAF8;
 
 }
 
@@ -133,15 +134,24 @@ ul {
 .calltoaction {
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #ec9e8b;
-    padding: 50px 10px 50px 10px;
-    margin: 50px 200px 100px 200px;
+    padding: 3em;
+    margin: 100px 200px;
 }
 
 .info-action {
-    max-width: 600px;
+    display: block;
+    color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.right {
+    display: block;
+    padding: 0px;
+    margin: 0px;
 }
 
 .signup {
@@ -160,5 +170,6 @@ button {
     font-size: 18px;
     font-weight: 700;
     color: #F9FAF8;
+    margin-top: 5px;
     padding: 5px 25px;
 }
